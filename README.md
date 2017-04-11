@@ -6,6 +6,12 @@
 
 ---
 
+
+<p align="center">
+  <img src="https://cdn.rawgit.com/luisvinicius167/create-tab/master/create-tab.gif" width="400"/>
+</p>
+
+
 ## Why should you use create-tab?
  * Tiny size: 1kb
  * Add your own css style
