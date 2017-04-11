@@ -1,8 +1,8 @@
 {
   "name": "create-tab",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dead simple way to create Tabs",
-  "main": "Gruntfile.js",
+  "main": "dist/create-tab.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,6 +1,6 @@
 # create-tab
 
-[![npm package](https://img.shields.io/badge/npm-v0.0.1-lightgray.svg)](https://www.npmjs.com/package/create-tab)
+[![npm package](https://img.shields.io/badge/npm-v0.0.2-lightgray.svg)](https://www.npmjs.com/package/create-tab)
 
 > Dead simple way to create Tabs
 
