@@ -1,0 +1,24 @@
+{
+  "name": "create-tab",
+  "version": "0.0.1",
+  "description": "Dead simple way to create Tabs",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tabs",
+    "tab"
+  ],
+  "files": [
+    "dist/create-tab.min.js"
+  ],
+  "devDependencies": {
+    "babel-preset-es2015-script": "^1.1.0",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0",
+    "time-grunt": "^1.4.0"
+  },
+  "author": "Luis Vinicius",
+  "license": "MIT"
+}
