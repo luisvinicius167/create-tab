@@ -15,7 +15,7 @@
 #### Install
 
 Npm: `npm install create-tab` </br>
-CDN: `https://unpkg.com/create-tab`
+CDN: `https://unpkg.com/create-tab@0.0.2`
 
 
 #### The Gist:
