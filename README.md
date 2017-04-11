@@ -21,7 +21,7 @@
 #### Install
 
 Npm: `npm install create-tab` </br>
-CDN: `https://unpkg.com/create-tab@0.0.2`
+CDN: `https://unpkg.com/create-tab@0.0.3`
 
 
 #### The Gist:
@@ -96,4 +96,5 @@ HTML Element Params
 </div>
 ```
 
+## LICENSE
 [MIT]
