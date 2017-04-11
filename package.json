@@ -1,6 +1,6 @@
 {
   "name": "create-tab",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Dead simple way to create Tabs",
   "main": "dist/create-tab.min.js",
   "scripts": {

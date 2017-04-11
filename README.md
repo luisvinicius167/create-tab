@@ -1,6 +1,6 @@
 # create-tab
 
-[![npm package](https://img.shields.io/badge/npm-v0.0.2-lightgray.svg)](https://www.npmjs.com/package/create-tab)
+[![npm package](https://img.shields.io/badge/npm-v0.0.3-lightgray.svg)](https://www.npmjs.com/package/create-tab)
 
 > Dead simple way to create Tabs
 
@@ -8,7 +8,7 @@
 
 
 <p align="center">
-  <img src="https://cdn.rawgit.com/luisvinicius167/create-tab/master/create-tab.gif" width="400"/>
+  <img src="https://cdn.rawgit.com/luisvinicius167/create-tab/9a1eaa5d/create-tab.gif" width="400"/>
 </p>
 
 
