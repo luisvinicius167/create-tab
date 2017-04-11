@@ -42,11 +42,13 @@
       tabView
         .forEach(item => {
           item.addEventListener('click', e => {
-            e.stopPropagation()
-            const tabViewValue = e.target.attributes['data-item'].value
-            setTabActive(tabView, item)
-            render(viewChildrenContent, tabViewValue)
-          })
+			e.stopPropagation()
+			const dataItem = e.target.attributes['data-item'];
+			if ( dataItem !== undefined) {
+				setTabActive(tabView, item);
+				render(viewChildrenContent, dataItem.value);
+			}
+          }, false)
         })
     }
 
@@ -59,8 +61,8 @@
   }
 
   if (typeof exports === 'object') {
-    module.exports = { createTab}
+    module.exports = createTab
   } else {
     global.createTab = createTab
   }
-})(this)
+})(this);

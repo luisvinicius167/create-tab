@@ -1,6 +1,6 @@
 # create-tab
 
-[![npm package](https://img.shields.io/badge/npm-v0.0.3-lightgray.svg)](https://www.npmjs.com/package/create-tab)
+[![npm package](https://img.shields.io/badge/npm-v0.0.4-lightgray.svg)](https://www.npmjs.com/package/create-tab)
 
 > Dead simple way to create Tabs
 
@@ -21,15 +21,14 @@
 #### Install
 
 Npm: `npm install create-tab` </br>
-CDN: `https://unpkg.com/create-tab@0.0.3`
+CDN: `https://unpkg.com/create-tab@0.0.4`
 
 
 #### The Gist:
 
 ```javascript
 // ES6 Module
-import { createTab } from 'create-tab';
-
+import createTab from 'create-tab';
 createTab("tab-links-id", "tab-content-view-id");
 
 // Browser
@@ -73,14 +72,17 @@ HTML Element Params
     The tab view name. 
     Will be rendered when the correspondent data-item is clicked
 -->
-<ul id="tabbar">
+
+<ul id="tabbar"> <!-- Tab Links id -->
+    <!-- Tab Links Children -->
     <li data-item="tab-one tab-active" data-initial="true">Tab One</li>
     <li data-item="tab-two">Tab Two</li>
     <li data-item="tab-three">Tab Three</li>
     <li data-item="tab-four">Tab Four</li>
 </ul>
 
-<div id="tabview">
+<div id="tabview"> <!-- Tab View id  -->
+    <!-- Tab View Children -->
     <h1 data-view="tab-one">
         Tab 1
     </h1>

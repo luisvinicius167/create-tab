@@ -38,10 +38,12 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
       tabView.forEach(function (item) {
         item.addEventListener('click', function (e) {
           e.stopPropagation();
-          var tabViewValue = e.target.attributes['data-item'].value;
-          setTabActive(tabView, item);
-          render(viewChildrenContent, tabViewValue);
-        });
+          var dataItem = e.target.attributes['data-item'];
+          if (dataItem !== undefined) {
+            setTabActive(tabView, item);
+            render(viewChildrenContent, dataItem.value);
+          }
+        }, false);
       });
     };
 
@@ -54,7 +56,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   };
 
   if ((typeof exports === 'undefined' ? 'undefined' : _typeof(exports)) === 'object') {
-    module.exports = { createTab: createTab };
+    module.exports = createTab;
   } else {
     global.createTab = createTab;
   }

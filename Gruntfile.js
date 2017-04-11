@@ -1,6 +1,16 @@
 module.exports = function (grunt) {
-  require('time-grunt')(grunt);
+  require('time-grunt')(grunt)
   grunt.initConfig({
+    uglify: {
+      options: {
+        mangle: false
+      },
+      my_target: {
+        files: {
+          'dist/create-tab.min.js': ['dist/create-tab.js']
+        }
+      }
+    },
     babel: {
       options: {
         presets: ['babel-preset-es2015-script']
@@ -11,7 +21,8 @@ module.exports = function (grunt) {
         }
       }
     }
-  });
-  grunt.loadNpmTasks('grunt-babel');
-  grunt.registerTask('default', ['babel']);
+  })
+  grunt.loadNpmTasks('grunt-contrib-uglify')
+  grunt.loadNpmTasks('grunt-babel')
+  grunt.registerTask('default', ['babel', 'uglify'])
 }
