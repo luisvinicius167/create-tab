@@ -96,4 +96,5 @@ HTML Element Params
 </div>
 ```
 
+## LICENSE
 [MIT]
